@@ -16,7 +16,7 @@ export function ProjectCard({ title, description, imageSrc, tags, summary, link 
   return (
     <Card className="overflow-hidden h-full flex flex-col">
       <div className="h-48 bg-gray-100 dark:bg-gray-800 relative">
-        <Image src={imageSrc || "/placeholder.svg"} alt={title} fill className="object-cover" />
+        <Image src={imageSrc || "/placeholder.svg?height=192&width=384"} alt={title} fill className="object-cover" />
       </div>
       <CardHeader className="flex-none">
         <CardTitle>{title}</CardTitle>

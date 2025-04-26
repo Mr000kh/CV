@@ -9,23 +9,23 @@ const projects = [
   {
     title: "Interactive Power BI Dashboards",
     description: "Data visualization and analysis solution",
-    imageSrc: "/powerbi.jpg?height=192&width=384",
+    imageSrc: "powerbi.jpg",
     tags: ["Power BI", "Data Analysis", "Visualization"],
     summary:
-      "Developed comprehensive Power BI dashboards for engineering departments, providing real-time insights and KPI tracking.",
+      "Developed comprehensive Power BI dashboards , providing real-time insights and KPI tracking.",
   },
   {
     title: "Tile Optimization Tool",
     description: "Waste reduction solution for construction",
-    imageSrc: "/tile.jpg?height=192&width=384",
-    tags: ["Python", "VBA", "Construction"],
+    imageSrc: "tile.jpg",
+    tags: ["VBA", "Optimization", "Construction"],
     summary:
       "Built a specialized tool for optimizing tile usage in construction projects, significantly reducing material waste and costs.",
   },
   {
     title: "3D Viewer for Revit Models",
     description: "Web-based 3D model visualization",
-    imageSrc: "/3d.jpg?height=192&width=384",
+    imageSrc: "3d.jpg",
     tags: ["JavaScript", "Revit API", "3D Visualization"],
     summary:
       "Developed a web application that extracts metadata from Revit, allowing users to view, filter, and edit 3D models through a browser interface.",
@@ -33,7 +33,7 @@ const projects = [
   {
     title: "AI Assistant for Engineers",
     description: "Intelligent support system",
-    imageSrc: "/aiass.jpg?height=192&width=384",
+    imageSrc: "aiass.jpg",
     tags: ["AI", "Python", "NLP"],
     summary:
       "Created an AI-powered assistant that helps engineering teams with technical queries, documentation, and process automation.",
@@ -41,7 +41,7 @@ const projects = [
   {
     title: "Complex Automation Bots",
     description: "Process automation solution",
-    imageSrc: "/Aoutomation.jpg?height=192&width=384",
+    imageSrc: "Aoutomation.jpg",
     tags: ["Power Automate", "RPA", "Workflow"],
     summary:
       "Developed sophisticated automation bots using Power Automate to streamline business processes and reduce manual workload.",
@@ -49,8 +49,8 @@ const projects = [
   {
     title: "Engineering KPI Application",
     description: "Performance tracking system",
-    imageSrc: "/kpi.jpg?height=192&width=384",
-    tags: ["Powr App", "Power BI", "Data Integration"],
+    imageSrc: "kpi.jpg",
+    tags: ["Power app", "Power BI", "Data Integration"],
     summary:
       "Built a KPI application for engineering departments that connects with interactive dashboards to provide comprehensive performance insights.",
   },
